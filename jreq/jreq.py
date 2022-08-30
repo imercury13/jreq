@@ -22,6 +22,7 @@ def safe_request(mode, url, headers=None, body=None, try_number=1):
 
 	try:
 		if mode == 'post': response = requests.post(url, data=body, headers=headers).json()
+		if mode == 'put': response = requests.put(url, data=body, headers=headers).json()
 		if mode == 'get': response = requests.get(url, headers=headers).json()
 		if mode == 'patch': response = requests.patch(url, data=body, headers=headers).json()
 		if mode == 'delete': response = requests.delete(url, headers=headers).json()
