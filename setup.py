@@ -16,7 +16,7 @@ setup(
     #url='https://ya360.uh.net.ru',
     license='MIT',
     project_urls={
-        "Documentation": "https://jreq.readthedocs.io/",
+        "Documentation": "https://jreq.readthedocs.io/ru/1.1.0",
         "Bug Tracker": "https://github.com/imercury13/jreq/issues"
     },
     classifiers=[
